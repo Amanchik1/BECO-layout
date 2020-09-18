@@ -9,20 +9,220 @@
     <title>BECO</title>
 </head>
 <body>
-    <div class="wrapper">
-        <nav class="wrapper__navbar">
-            <div class="navbar__logo">
-                <img src="" alt="">
+<div class="wrapper">
+    <nav id="navbar" class="wrapper__navbar">
+        <div id="logo" class="navbar__logo">
+            <img src="./image/logo2.png" alt="">
+            <span id="logo__text" class="logo__text">BECO</span>
+        </div>
+        <div class="navbar__button" id="navbar__button">
+            <svg width="48" height="106" viewBox="0 0 48 106" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0C0 11.7415 9.99255 16.1938 20.8591 21.0356C33.809 26.8055 48 33.1285 48 53C48 72.8715 33.809 79.1945 20.8591 84.9644C9.99255 89.8062 0 94.2585 0 106V0Z"
+                      fill="#F3F4F9"/>
+            </svg>
+            <svg id="close" class="close burger__none" width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="26.1977" height="2.01521" rx="1.00761" transform="matrix(0.705315 0.708894 -0.705315 0.708894 4.52234 0)" fill="#262626"/>
+                <rect width="26.1977" height="2.01521" rx="1.00761" transform="matrix(0.705315 -0.708894 0.705315 0.708894 3 18.5714)" fill="#262626"/>
+            </svg>
+            <svg id="open" class="open" width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="26" height="2" rx="1" fill="#262626"/>
+                <rect y="18" width="26" height="2" rx="1" fill="#262626"/>
+                <rect y="8.99997" width="26" height="2" rx="1" fill="#262626"/>
+            </svg>
+        </div>
+        <div class="navbar__list">
+            <div class="navbar__list_element">
+                <img src="./image/catalog.png" alt="catalog">
+                <span>Каталог</span>
+            </div >
+            <div class="navbar__list_element ">
+                <img src="./image/catalog.png" alt="catalog">
+                <span>Здоровье</span>
             </div>
-            <div class="navbar__list">
-
+            <div class="navbar__list_element ">
+                <img src="./image/catalog.png" alt="catalog">
+                <span>Красота</span>
             </div>
-        </nav>
-        <div class="wrapper__page">
-            <div class="page__header__block">
-                <div class="page__header">Развлечения</div>
+            <div class="navbar__list_element active">
+                <img src="./image/catalog.png" alt="catalog">
+                <span>Развлечения</span>
+            </div>
+            <div class="navbar__list_element ">
+                <img src="./image/catalog.png" alt="catalog">
+                <span>Авто</span>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper__page">
+        <div class="page__header__block">
+            <div class="page__header">Развлечения</div>
+        </div>
+        <div class="search__wrapper">
+            <input class="header__search" type="text" placeholder="Какой магазин вам нужен?">
+        </div>
+        <div class="page__list__block">
+            <div class="card__wrapper">
+                <div class="list__element">
+                    <div>
+                        <div class="title">пробка на мира</div>
+                        <div class="description">Вечер для двоих</div>
+                    </div>
+                    <div>
+                        <div class="discount">-50%</div>
+                        <div class="label">скидка</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__wrapper">
+                <div class="list__element">
+                    <div>
+                        <div class="title">пробка на мира</div>
+                        <div class="description">Вечер для двоих</div>
+                    </div>
+                    <div>
+                        <div class="discount">-50%</div>
+                        <div class="label">скидка</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__wrapper">
+                <div class="list__element">
+                    <div>
+                        <div class="title">пробка на мира</div>
+                        <div class="description">Вечер для двоих</div>
+                    </div>
+                    <div>
+                        <div class="discount">-50%</div>
+                        <div class="label">скидка</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__wrapper">
+                <div class="list__element">
+                    <div>
+                        <div class="title">пробка на мира</div>
+                        <div class="description">Вечер для двоих</div>
+                    </div>
+                    <div>
+                        <div class="discount">-50%</div>
+                        <div class="label">скидка</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__wrapper">
+                <div class="list__element">
+                    <div>
+                        <div class="title">пробка на мира</div>
+                        <div class="description">Вечер для двоих</div>
+                    </div>
+                    <div>
+                        <div class="discount">-50%</div>
+                        <div class="label">скидка</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__wrapper">
+                <div class="list__element">
+                    <div>
+                        <div class="title">пробка на мира</div>
+                        <div class="description">Вечер для двоих</div>
+                    </div>
+                    <div>
+                        <div class="discount">-50%</div>
+                        <div class="label">скидка</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__wrapper">
+                <div class="list__element">
+                    <div>
+                        <div class="title">пробка на мира</div>
+                        <div class="description">Вечер для двоих</div>
+                    </div>
+                    <div>
+                        <div class="discount">-50%</div>
+                        <div class="label">скидка</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__wrapper">
+                <div class="list__element">
+                    <div>
+                        <div class="title">пробка на мира</div>
+                        <div class="description">Вечер для двоих</div>
+                    </div>
+                    <div>
+                        <div class="discount">-50%</div>
+                        <div class="label">скидка</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__wrapper">
+                <div class="list__element">
+                    <div>
+                        <div class="title">пробка на мира</div>
+                        <div class="description">Вечер для двоих</div>
+                    </div>
+                    <div>
+                        <div class="discount">-50%</div>
+                        <div class="label">скидка</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__wrapper">
+                <div class="list__element">
+                    <div>
+                        <div class="title">пробка на мира</div>
+                        <div class="description">Вечер для двоих</div>
+                    </div>
+                    <div>
+                        <div class="discount">-50%</div>
+                        <div class="label">скидка</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__wrapper">
+                <div class="list__element">
+                    <div>
+                        <div class="title">пробка на мира</div>
+                        <div class="description">Вечер для двоих</div>
+                    </div>
+                    <div>
+                        <div class="discount">-50%</div>
+                        <div class="label">скидка</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__wrapper">
+                <div class="list__element">
+                    <div>
+                        <div class="title">пробка на мира</div>
+                        <div class="description">Вечер для двоих</div>
+                    </div>
+                    <div>
+                        <div class="discount">-50%</div>
+                        <div class="label">скидка</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__wrapper">
+                <div class="list__element">
+                    <div>
+                        <div class="title">пробка на мира</div>
+                        <div class="description">Вечер для двоих</div>
+                    </div>
+                    <div>
+                        <div class="discount">-50%</div>
+                        <div class="label">скидка</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+</div>
+
+
+<script src="index.js"></script>
 </body>
 </html>
